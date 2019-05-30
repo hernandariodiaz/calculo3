@@ -1,11 +1,15 @@
+/*   ESTILO PARA CABECERA*/
 
+body{
+	background-color:#525050;
+}
 figure{
 	margin:0px;
 	padding:0px;
 	display:inline-block;
 	width:100%;
 	height:400px;
-	background-image:url(bk3.jpg);
+	background-image:url(public/bk3.jpg);
 }
 figure input{
 	margin-left:25%;
@@ -47,8 +51,38 @@ menu{
 	transform:scale(1.1);
 	transition:1.3s;
 }
-.menu div a{
-	text-decoration:none;
-	color:#2C3238;
-	font-size:200%;
+/*    ESTILO PARA EL CUERPO DEL DOCUMENTO */
+
+h1{
+	display:inline-block;
+	margin:0px;
+	padding:0px;
+	color:#ffffff;
+	font-size:300%;
+	width:auto;
+	margin-left:40%;
 }
+p{
+	margin-left:10%;
+	margin-right:10%;
+	padding:10%;
+	border:#EE4470 4px solid;
+	border-radius:2%;
+	background-color:#C0C1C1;
+	font-size:85%;
+}
+img{
+	padding:2px;
+	border:#6C6E6E 2px solid;
+	border-radius:10%;
+	width:100%;
+}
+.footer{
+	color:#ffffff;
+	padding:4%;
+	font-size:40%;
+	border:#EE4470 2px solid;
+	border-radius:8%;
+	background-image:url(public/ft.jpg);
+}
+
