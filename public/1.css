@@ -1,4 +1,4 @@
-/*   ESTILO PARA CABECERA*/
+/*   ESTILO PARA LA CABECERA*/
 
 body{
 	background-color:#525050;
@@ -9,7 +9,7 @@ figure{
 	display:inline-block;
 	width:100%;
 	height:400px;
-	background-image:url(public/bk3.jpg);
+	background-image:url(bk4.jpg);
 }
 figure input{
 	margin-left:25%;
@@ -20,7 +20,18 @@ figure input{
 	border-radius:5%;
 	font-size:200%;
 	border:#1D1C1C 2px solid;
+	background-color:#33454D;
+	color:#ffffff;
 }
+figure input:hover{
+	border:#25C7F2 2px solid;
+	transform:scale(1.05);
+	transition:1s;
+	background-color:#A5C4C5;
+	color:black;
+}
+
+/*   ESTILO PARA EL MENU*/
 menu{
 	margin:0px;
 	padding:0px;
@@ -40,49 +51,61 @@ menu{
 	border-radius:10%;
 }
 .menu div:hover{
-	background-color:#EE4470;
+	background-color:black;
 	border:#C0C1C1 2px solid;
+	color:#ffffff;
 	float:left;
 	width:32.9%;
 	height:50px;
 	text-align:center;
 	padding-top:3px;
 	border-radius:10%;
-	transform:scale(1.1);
+	transform:scale(1.05);
 	transition:1.3s;
 }
 /*    ESTILO PARA EL CUERPO DEL DOCUMENTO */
 
-h1{
+.body h1{
 	display:inline-block;
 	margin:0px;
 	padding:0px;
 	color:#ffffff;
+	text-align:center;
 	font-size:300%;
-	width:auto;
-	margin-left:40%;
+	width:100%;
+	margin:0px auto;
 }
-p{
+.body p{
 	margin-left:10%;
 	margin-right:10%;
 	padding:10%;
 	border:#EE4470 4px solid;
 	border-radius:2%;
 	background-color:#C0C1C1;
-	font-size:85%;
+	font-size:79.89%;
 }
 img{
 	padding:2px;
 	border:#6C6E6E 2px solid;
 	border-radius:10%;
 	width:100%;
+	margin-top:3%;
+	margin-bottom:3%;
 }
+/*    ESTILO PARA EL PIE*/
 .footer{
 	color:#ffffff;
 	padding:4%;
-	font-size:40%;
+	font-size:60%;
 	border:#EE4470 2px solid;
 	border-radius:8%;
-	background-image:url(public/ft.jpg);
+	background-image:url(ft.jpg);
 }
-
+.footer img{
+	display:inline-block;
+	margin-top:-13%;
+	width:10%;
+	float:right;
+	margin-left:90%;
+	border:none;
+}
