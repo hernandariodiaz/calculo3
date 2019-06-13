@@ -1,0 +1,20 @@
+<h2>Superficies Cuádricas</h2>
+<p>Una superficie cuádrica <b>es la gráfica de una ecuación</b> de segundo grado en 
+tres variables: X,Y y Z; La ecuación más general es: 
+<br>
+<figure>
+	<img class="formula" src="resources/ecug.png" alt=""> 
+</figure>
+<br>
+Donde A,B,C...J son constantes, aunque por trazlación y rotación se puede llevar a una de las formas estándar: 
+<br>
+<figure>
+	<img class="formula" src="resources/ecus.png" alt="">
+</figure>
+<br>
+</p>
+<h2>Cilindros</h2>
+<p>
+Un cilindro es una superficie que consiste de <b> <span style="color:red;">todas las lineas rectas (llamadas generatrices)</span></b> que son <b>paralelas</> a <span style="color:blue;"><b>una recta dada</b></span> y pasan por <span style="color:green;"><b>una curva plana dada</b></span>.
+<img src="resources/xcuadrado.png"/>
+</p>

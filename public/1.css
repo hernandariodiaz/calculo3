@@ -1,34 +1,27 @@
 /*   ESTILO PARA LA CABECERA*/
 
 body{
-	background-color:#525050;
+	margin:0px;
+	padding:0px;
+	background:gray;
+}
+.container{
+	padding:5px;
+	margin:auto;
+	width:auto;
+	
+	/*
+	background:#525050;*/
 }
 figure{
 	margin:0px;
 	padding:0px;
 	display:inline-block;
 	width:100%;
-	height:400px;
-	background-image:url(bk4.jpg);
+	height:100%;
 }
-figure input{
-	margin-left:25%;
-	margin-top:37%;
-	width:50%;
-	height:50px;
-	text-align:center;
-	border-radius:5%;
-	font-size:200%;
-	border:#1D1C1C 2px solid;
-	background-color:#33454D;
-	color:#ffffff;
-}
-figure input:hover{
-	border:#25C7F2 2px solid;
-	transform:scale(1.05);
-	transition:1s;
-	background-color:#A5C4C5;
-	color:black;
+figure img{
+	width:100%;
 }
 
 /*   ESTILO PARA EL MENU*/
@@ -57,54 +50,74 @@ menu{
 	float:left;
 	width:32.9%;
 	height:50px;
-	text-align:center;
+	text:center justify;
 	padding-top:3px;
 	border-radius:10%;
 	transform:scale(1.05);
 	transition:1.3s;
 }
 /*    ESTILO PARA EL CUERPO DEL DOCUMENTO */
-
+.body{
+	margin:8px;
+	width:100%;
+	display:inline-block;
+}
 .body h1{
 	display:inline-block;
 	margin:0px;
 	padding:0px;
 	color:#ffffff;
 	text-align:center;
-	font-size:300%;
+	font-size:50px;
 	width:100%;
 	margin:0px auto;
 }
 .body p{
-	margin-left:10%;
-	margin-right:10%;
+	margin:5px;
 	padding:10%;
-	border:#EE4470 4px solid;
+	border:#EE4470 3px solid;
 	border-radius:2%;
 	background-color:#C0C1C1;
-	font-size:79.89%;
+	font-size:12px;
+	margin-bottom:5px;
 }
-img{
+.body img{
 	padding:2px;
 	border:#6C6E6E 2px solid;
 	border-radius:10%;
 	width:100%;
+	height:50%;
 	margin-top:3%;
 	margin-bottom:3%;
 }
+.body .little{
+	padding:2px;
+	border:#6C6E6E 2px solid;
+	border-radius:10%;
+	width:45%;
+	height:25%;
+	margin:1%;
+	text-align:center;
+}
+
+
+
 /*    ESTILO PARA EL PIE*/
 .footer{
+	clear:both;
 	color:#ffffff;
 	padding:4%;
-	font-size:60%;
+	font-size:13px;
 	border:#EE4470 2px solid;
 	border-radius:8%;
 	background-image:url(ft.jpg);
 }
 .footer img{
+	padding:0%;
 	display:inline-block;
-	margin-top:-13%;
-	width:10%;
+	margin-top:-7%;
+	width:7%;
+	height:7%;
 	float:right;
 	margin-left:90%;
 	border:none;
