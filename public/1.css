@@ -58,9 +58,10 @@ menu{
 }
 /*    ESTILO PARA EL CUERPO DEL DOCUMENTO */
 .body{
-	margin:8px;
-	width:100%;
+	margin:2px;
+	width:75%;
 	display:inline-block;
+	float:left;
 }
 .body h1{
 	display:inline-block;
@@ -100,7 +101,27 @@ menu{
 	text-align:center;
 }
 
-
+.references{
+	margin:0px;
+	padding:0px;
+	display:inline-block;
+	width:23%;
+	margin-left:1%;
+	float:left;
+	border:#ffffff 1px solid;
+	border-top:none;
+	text-align: center;
+}
+.references h2{
+	margin:0px;
+	padding:0px;
+	color:#ffffff;
+	text-align:center;
+	margin:0px auto;
+}
+video{
+	width:100%;
+}
 
 /*    ESTILO PARA EL PIE*/
 .footer{

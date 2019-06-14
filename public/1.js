@@ -18,6 +18,7 @@ function show(who)
  	l=who.target.textContent.length;
  	tittle=who.target.textContent;
  	content=document.getElementById('content')
+ 	references=document.getElementById('references')
 	if(l==33){
 		content.innerHTML="<h1>"+tittle+"</h1><hr>"+
 		"<p><span style='font-size:18px;'>Superficies Cuádricas:</span><br><br>"+
@@ -61,7 +62,9 @@ function show(who)
 		"<img class='little' src='resources/1/hiperboloide2hojas2.png'/></p>";
 		
 		
-		//
+		//PARA LAS REFERENCIAS
+		references.innerHTML="<h2>bienvenidos</h2><hr>"+
+		"<ul><li>Ejemplos</li><li>ejercisios</li><li>videos</li><video src='resources/1/v.mp4' controls='controls'></video></ul>";
 	 }
 	else if(l==44){
 		
@@ -73,23 +76,23 @@ function show(who)
 	    " es el conjunto de los números reales y cuyos rango es un conjunto de vectores.</b>"+
 	 	"El interés se centro más en funciones vectoriales r cuyos valores son "+
 	 	"vectores tridimencionales.<br><img src='resources"+
-	 	"/1/vectortrayectoria.png'/>"+
+	 	"/2/vectortrayectoria.png'/>"+
 	 	"<br><span style='color:#EF008C;'>Esto significa que para cada número <i>t</i>"+
 	 	" en el dominio <b>r</b></span> <span style='color:#00AEEF;'>hay un vector único en V3 que se denota con "+
 	 	"<b>r(t)</b></span>. Si <i>f(t),g(t) y h(t)</i> son las componentes del vector <b>r(t)</b>"+
 	 	", entoces <i>f,g y h</i> son funciones de valores reales llamadas<b>"+
 	 	" funciones componentes </b>de <b>r</b> y podemos escribir:"+
-	 	"<img  src='resources/1/funcioncomponente.png'/></p>"+
+	 	"<img  src='resources/2/funcioncomponente.png'/></p>"+
 	 	
 	 	"<p><span style='font-size:18px;'>Dominio:</span><br><br>"+
 	 	"Conciste en la <b>INTRESECCION</b> de todos los dominios precentes <i>t</i>"+
 	 	" en  cada componente <b>f(t),g(t),h(t) </b>de dicho vector <b>r(t)</b>"+
-	 	"<img src='resources/1/dominio.png'/></p>"+
+	 	"<img src='resources/2/dominio.png'/></p>"+
 	 	
 	 	"<p><span style='font-size:18px;'>Límite:</span><br><br>"+
 	 	"El límite de una función vectorial r se define obteniendo los límites de sus "+
 	 	"funciones componentes."+
-	 	"<img  src='resources/1/limite.png'/>"+
+	 	"<img  src='resources/2/limite.png'/>"+
 	 	"Siempre que existan los límites de las funciones componentes</p>"+
 	 	
 	 	"<p> <span style='font-size:18px;'>Curvas en el Espacio</span><br><br>"+
@@ -111,15 +114,15 @@ function show(who)
 		"Aun cuando se utiliza una computadora para trazar una curva en el espacio, "+
 		"es difícil obtener la ilusión óptica que logra una buena impresión de cómo "+
 		"se ve la curva en realidad:"+
-		"<img  src='resources/1/coordenada.png'/>"+
+		"<img  src='resources/2/coordenada.png'/>"+
 		"Por tanto es mejor encerrar una curva o superficie en una caja en lugar "+
 		"de mostrar los ejes coordenados; Cuando se ve la misma curva en una caja "+
 		"se tiene mucho más clara la imagen de la curva:<br>"+
-		"<img class='little' src='resources/1/caja1.png'/>"+
-		"<img class='little' src='resources/1/caja2.png'/>"+
+		"<img class='little' src='resources/2/caja1.png'/>"+
+		"<img class='little' src='resources/2/caja2.png'/>"+
 		"Otro método para representar es darse cuenta que se puede ver la curva "+
 		"de intersección de los cilindros:"+
-		"<img  src='resources/1/colision.png'/>"+
+		"<img  src='resources/2/colision.png'/>"+
 		"DEBIDO AL SOFTWARE QUE VAMOS A UTILIZAR DURANTE TODO EL "+
 		"PROCESO, ESTE ÚLTIMO SERÁ EL MÉTODO AL CUAL DEBEMOS "+
 		"FAMILIARIZARNOS PARA LA INTERPRETACIÓN DE FUTUROS TEMAS.</p>";
@@ -191,7 +194,7 @@ function show(who)
 		"<br>La anterior figura es una de muchas superficies que podremos observar"+
 		"y construir, a través de los objetivos planteados para la asignatura </p>";
 	}
-	else if(l==11||l==10){
+	else if(l==11||l==10||l==0){
 		content.innerHTML="<h1>Matemáticas III</h1><hr>"+
 		"<p><span style='font-size:18px;'>Bienvenidos</span><br><br>"+
 		"Utilizando las guías elaboradas para cada tópico"+
