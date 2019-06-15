@@ -23,26 +23,26 @@ function show(who)
 		content.innerHTML="<h1>"+tittle+"</h1><hr>"+
 		"<p><span style='font-size:18px;'>Superficies Cuádricas:</span><br><br>"+
 		"Una superficie cuádrica <b>es la gráfica de una ecuación</b> de segundo"+
-		" grado en tres variables: X,Y y Z; La ecuación más general es: <br>"+
-		"<img class='formula' src='resources/1/ecug.png' ><br>"+
+		" grado en tres variables: X,Y y Z; La ecuación más general es: <br><br>"+
+		"<img class='formula' src='resources/1/ecug.png' ><br><br>"+
 		"Donde A,B,C...J son constantes, aunque por trazlación y rotación se puede "+
-		"llevar a una de las formas estándar: <br>"+
-		"<img class='formula' src='resources/1/ecus.png' ><br></p>"+
+		"llevar a una de las formas estándar: <br><br>"+
+		"<img class='formula' src='resources/1/ecus.png' ><br><br></p>"+
 		
 		
 		"<p><span style='font-size:18px;'>Cilindros:</span><br><br>"+
 		"Un cilindro es una superficie que consiste de"+
 		" <span style='color:#CA2A51;'><i>todas las lineas rectas (llamadas generatrices)</i></span> que son"+
 		" <b>paralelas </b>a <span style='color:#FF9A00;'><i>una recta dada</i></span> y pasan por <span style='color:#5930AD; '><i>"+
-		"una curva plana dada</i></span>.<br>"+
+		"una curva plana dada</i></span>.<br><br>"+
 		"<img class='little' src='resources/1/xcuadrado.png'/>"+
-		"<img class='little' src='resources/1/circulo.png'/></p>"+
+		"<img class='little' src='resources/1/circulo.png'/><br><br></p>"+
 		
 		
 		"<p><span style='font-size:18px;'>Trazas:</span><br><br>"+
 		"Las trazas en los planos verticales X=K son las parábolas que abren hacia arriba"+
 		",  las trazas en Y=K son las parábolas que abren hacia abajo y las trazas "+
-		"horizontales son (y^2-X^2=K) una familia de hipérbolas:<br>"+
+		"horizontales son (y^2-X^2=K) una familia de hipérbolas:<br><br>"+
 		"<img class='little' src='resources/1/trazax.png'/>"+
 		"<img class='little' src='resources/1/trazax2.png'/>"+
 		"<img class='little' src='resources/1/trazay.png'/>"+	
@@ -63,8 +63,14 @@ function show(who)
 		
 		
 		//PARA LAS REFERENCIAS
-		references.innerHTML="<h2>bienvenidos</h2><hr>"+
-		"<ul><li>Ejemplos</li><li>ejercisios</li><li>videos</li><video src='resources/1/v.mp4' controls='controls'></video></ul>";
+		references.innerHTML="<h2>Actividades y Ejemplos</h2><hr>"+
+		"<ul><h4>EJEMPLOS</h4><li><video src='resources/1/v.mp4' controls='controls'></video></li>"+
+		"<li><video src='resources/1/v.mp4' controls='controls'></video></li></ul>"+
+
+		"<ul><h4>ACTIVIDAD</h4><h6>Resolver:</h6><li>1<img src='resources/1/ecus.png'></li>"+
+		"<li>2<img src='resources/1/ecug.png'></li><li>3<img src='resources/2/dominio.png'></li>"+
+		"<h6>Respuesta:</h6><li>1<img src='resources/1/ecus.png'></li><li>2<img src='resources/1/ecug.png'></li>"+
+		"<li>3<img src='resources/2/dominio.png'></li></ul>";
 	 }
 	else if(l==44){
 		
@@ -72,27 +78,27 @@ function show(who)
 		"<p><span style='font-size:18px;'>Funciones Vectoriales:</span><br><br>"+
 	 	"En general una función es una regla que asigna a cada elemento del dominio, un"+
 	 	" elemento del rango. Una <b>función con valores vectoriales </b>, es decir :"+
-	 	"<br><br>Una función vectorial, <b>es simplemente una función cuyo dominio"+
+	 	"<br>Una función vectorial, <b>es simplemente una función cuyo dominio"+
 	    " es el conjunto de los números reales y cuyos rango es un conjunto de vectores.</b>"+
 	 	"El interés se centro más en funciones vectoriales r cuyos valores son "+
-	 	"vectores tridimencionales.<br><img src='resources"+
-	 	"/2/vectortrayectoria.png'/>"+
-	 	"<br><span style='color:#EF008C;'>Esto significa que para cada número <i>t</i>"+
+	 	"vectores tridimencionales.<br><br><img src='resources"+
+	 	"/2/vectortrayectoria.png'/><br><br>"+
+	 	"<span style='color:#EF008C;'>Esto significa que para cada número <i>t</i>"+
 	 	" en el dominio <b>r</b></span> <span style='color:#00AEEF;'>hay un vector único en V3 que se denota con "+
 	 	"<b>r(t)</b></span>. Si <i>f(t),g(t) y h(t)</i> son las componentes del vector <b>r(t)</b>"+
 	 	", entoces <i>f,g y h</i> son funciones de valores reales llamadas<b>"+
-	 	" funciones componentes </b>de <b>r</b> y podemos escribir:"+
+	 	" funciones componentes </b>de <b>r</b> y podemos escribir:<br><br>"+
 	 	"<img  src='resources/2/funcioncomponente.png'/></p>"+
 	 	
 	 	"<p><span style='font-size:18px;'>Dominio:</span><br><br>"+
 	 	"Conciste en la <b>INTRESECCION</b> de todos los dominios precentes <i>t</i>"+
-	 	" en  cada componente <b>f(t),g(t),h(t) </b>de dicho vector <b>r(t)</b>"+
+	 	" en  cada componente <b>f(t),g(t),h(t) </b>de dicho vector <b>r(t)</b><br><br>"+
 	 	"<img src='resources/2/dominio.png'/></p>"+
 	 	
 	 	"<p><span style='font-size:18px;'>Límite:</span><br><br>"+
 	 	"El límite de una función vectorial r se define obteniendo los límites de sus "+
-	 	"funciones componentes."+
-	 	"<img  src='resources/2/limite.png'/>"+
+	 	"funciones componentes.<br><br>"+
+	 	"<img  src='resources/2/limite.png'/><br><br>"+
 	 	"Siempre que existan los límites de las funciones componentes</p>"+
 	 	
 	 	"<p> <span style='font-size:18px;'>Curvas en el Espacio</span><br><br>"+
@@ -113,16 +119,16 @@ function show(who)
 		"necesitamos recurrir a los adelantos técnicos.<br>"+
 		"Aun cuando se utiliza una computadora para trazar una curva en el espacio, "+
 		"es difícil obtener la ilusión óptica que logra una buena impresión de cómo "+
-		"se ve la curva en realidad:"+
-		"<img  src='resources/2/coordenada.png'/>"+
+		"se ve la curva en realidad:<br><br>"+
+		"<img  src='resources/2/coordenada.png'/><br><br>"+
 		"Por tanto es mejor encerrar una curva o superficie en una caja en lugar "+
 		"de mostrar los ejes coordenados; Cuando se ve la misma curva en una caja "+
 		"se tiene mucho más clara la imagen de la curva:<br>"+
 		"<img class='little' src='resources/2/caja1.png'/>"+
-		"<img class='little' src='resources/2/caja2.png'/>"+
+		"<img class='little' src='resources/2/caja2.png'/><br><br>"+
 		"Otro método para representar es darse cuenta que se puede ver la curva "+
-		"de intersección de los cilindros:"+
-		"<img  src='resources/2/colision.png'/>"+
+		"de intersección de los cilindros:<br><br>"+
+		"<img  src='resources/2/colision.png'/><br><br>"+
 		"DEBIDO AL SOFTWARE QUE VAMOS A UTILIZAR DURANTE TODO EL "+
 		"PROCESO, ESTE ÚLTIMO SERÁ EL MÉTODO AL CUAL DEBEMOS "+
 		"FAMILIARIZARNOS PARA LA INTERPRETACIÓN DE FUTUROS TEMAS.</p>";
