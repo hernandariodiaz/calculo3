@@ -3,13 +3,12 @@
 body{
 	margin:0px;
 	padding:0px;
-	background:#224349;
 }
 .container{
-	padding:5px;
-	margin:auto;
+	padding:0px;
+	margin:0px;
 	width:auto;
-	
+	background-color:#224349;
 	/*
 	background:#525050;*/
 }
@@ -23,7 +22,14 @@ figure{
 figure img{
 	width:100%;
 }
-
+.home{
+	position:absolute;
+	cursor:pointer;
+	width:42px;
+	height:42px;
+	border-radius:8px;
+	opacity:.7;
+}
 /*   ESTILO PARA EL MENU*/
 menu{
 	margin:0px;
@@ -36,14 +42,13 @@ menu{
 	margin: 0px auto;
 }
 .menu div{
-	background-color:#690426;
+	background-color:#86193A;
 	/*background-color:#EE4470;*/
 	border:#0E0E0E 2px solid;
 	float:left;
 	width:32.9%;
 	height:50px;  
 	text-align:center;
-	padding-top:3px;
 	border-radius:10%;
 	cursor: pointer;
 }
@@ -54,7 +59,6 @@ menu{
 	float:left;
 	width:32.9%;
 	height:50px;
-	padding-top:3px;
 	border-radius:10%;
 	transform:scale(1.05);
 	transition:1.3s;
@@ -109,6 +113,8 @@ menu{
 	border-bottom:#ffffff 1px solid;
 	text-align: center;
 	font-size:25px;
+	padding-bottom:10px;
+	margin-bottom:20px;
 }
 .references ul{
 	list-style: none;
@@ -127,11 +133,11 @@ menu{
 	margin:0px auto;
 }
 .references img{
-	width:90%;
+	width:80%;
 	height: 20px;
 }
 video{
-	width:100%;
+	width:95%;
 	border: #000 2px solid;
 	border-radius: 5%;
 	margin: 5px 0px;
@@ -143,13 +149,13 @@ video{
 	color:#ffffff;
 	padding:4%;
 	font-size:13px;
-	background: #07111db6;
 	border-top: #690426 2px solid;
 	width: auto;
+	background:#07111db6;
 }
 .footer img{
 	padding:0%;
-	margin-top:-7%;
+	margin-top:-8%;
 	width:7%;
 	height:7%;
 	float:right;

@@ -38,7 +38,6 @@ menu{
 	width:32.8%;
 	height:25%;
 	text-align:center;
-	padding-top:3px;
 	border-radius:10%;
 }
 .menu div:hover{
@@ -47,7 +46,6 @@ menu{
 	color:#ffffff;
 	float:left;
     height:20%;
-	padding-top:3px;
 	border-radius:10%;
 	transform:scale(1.01);
 	transition:1.3s;

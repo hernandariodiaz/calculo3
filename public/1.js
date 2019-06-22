@@ -59,7 +59,7 @@ function show(who)
 		"<img class='little' src='resources/1/silla2.png'/>"+	
 		"<img class='little' src='resources/1/cono2.png'/>"+
 		"<img class='little' src='resources/1/hiperboloide1hoja2.png'/>"+
-		"<img class='little' src='resources/1/hiperboloide2hojas2.png'/></p>";
+		"<img class='little' src='resources/1/hiperboloide2hojas2.png'/></p><hr>";
 		
 		
 		//PARA LAS REFERENCIAS
@@ -131,7 +131,7 @@ function show(who)
 		"<img  src='resources/2/colision.png'/><br><br>"+
 		"DEBIDO AL SOFTWARE QUE VAMOS A UTILIZAR DURANTE TODO EL "+
 		"PROCESO, ESTE ÚLTIMO SERÁ EL MÉTODO AL CUAL DEBEMOS "+
-		"FAMILIARIZARNOS PARA LA INTERPRETACIÓN DE FUTUROS TEMAS.</p>";
+		"FAMILIARIZARNOS PARA LA INTERPRETACIÓN DE FUTUROS TEMAS.</p><hr>";
 	}
 	else if(l==29){
 		content.innerHTML="<h1>"+tittle+"</h1><hr>"+
@@ -144,41 +144,41 @@ function show(who)
 		
 		"<p> <span style='font-size:18px;'>Ecuaciones Paramétricas</span><br><br>"+
 		"Entoces las ecuaciones en C reciben el nombre de ecuaciones paramétricas "+
-		"de todos los puntos (x,y,z) en el espacio, y t se llama parámetro.</p>"
+		"de todos los puntos (x,y,z) en el espacio, y t se llama parámetro.</p><hr>"
 	}
 	else if(l==42){
 		content.innerHTML="<h1>"+tittle+"</h1><hr>"+
 		"<p> <span style='font-size:18px;'>EN CONSTRUCCION</span><br><br>"+
 		"Utilizando las guías elaboradas para cada tópico de la asignatura,"+
 		"le permitirá comprender y trabajar de una forma empírica los conceptos olvidados en clase."+
-		"<br><img src='resources/bk2.png' ><i>f(x,y)=sen(x)·cos(y)</i><br>"+
+		"<br><img src='resources/4/bk2.png' ><i>f(x,y)=sen(x)·cos(y)</i><br>"+
 		"<br>La anterior figura es una de muchas superficies que podremos observar"+
-		"y construir, a través de los objetivos planteados para la asignatura </p>";
+		"y construir, a través de los objetivos planteados para la asignatura </p><hr>";
 	}
 	else if(l==39){
 		content.innerHTML="<h1>"+tittle+"</h1><hr>"+
 		"<p> <span style='font-size:18px;'>EN CONSTRUCCION</span><br><br>"+
 		"Utilizando las guías elaboradas para cada tópico de la asignatura,"+
 		"le permitirá comprender y trabajar de una forma empírica los conceptos olvidados en clase."+
-		"<br><img src='resources/integrales/d.png' ><i>f(x,y)=sen(x)·cos(y)</i><br>"+
+		"<br><img src='resources/5/integrales/d.png' ><i>f(x,y)=sen(x)·cos(y)</i><br>"+
 		"<br>La anterior figura es una de muchas superficies que podremos observar"+
-		"y construir, a través de los objetivos planteados para la asignatura </p>";
+		"y construir, a través de los objetivos planteados para la asignatura </p><hr>";
 	}
 	else if(l==40){
 		content.innerHTML="<h1>"+tittle+"</h1><hr>"+
 		"<p> <span style='font-size:18px;'>EN CONSTRUCCION</span><br><br>"+
 		"Utilizando las guías elaboradas para cada tópico de la asignatura,"+
 		"le permitirá comprender y trabajar de una forma empírica los conceptos olvidados en clase."+
-		"<br><img src='resources/integrales/t.png' ><i>f(x,y)=sen(x)·cos(y)</i><br>"+
+		"<br><img src='resources/6/integrales/t.png' ><i>f(x,y)=sen(x)·cos(y)</i><br>"+
 		"<br>La anterior figura es una de muchas superficies que podremos observar"+
-		"y construir, a través de los objetivos planteados para la asignatura </p>";
+		"y construir, a través de los objetivos planteados para la asignatura </p><hr>";
 	}
 	else if(l==49){
 		content.innerHTML="<h1>"+tittle+"</h1><hr>"+
 		"<p> <span style='font-size:18px;'>EN CONSTRUCCION</span><br><br>"+
 		"Utilizando las guías elaboradas para cada tópico de la asignatura,"+
 		"le permitirá comprender y trabajar de una forma empírica los conceptos olvidados en clase."+
-		"<br><img src='resources/bk2.png' ><i>f(x,y)=sen(x)·cos(y)</i><br>"+
+		"<br><img src='resources/7/bk2.png' ><i>f(x,y)=sen(x)·cos(y)</i><br>"+
 		"<br>La anterior figura es una de muchas superficies que podremos observar"+
 		"y construir, a través de los objetivos planteados para la asignatura </p>";
 	}
@@ -187,18 +187,18 @@ function show(who)
 		"<p> <span style='font-size:18px;'>EN CONSTRUCCION</span><br><br>"+
 		"Utilizando las guías elaboradas para cada tópico de la asignatura,"+
 		"le permitirá comprender y trabajar de una forma empírica los conceptos olvidados en clase."+
-		"<br><img src='resources/bk2.png' ><i>f(x,y)=sen(x)·cos(y)</i><br>"+
+		"<br><img src='resources/8/bk2.png' ><i>f(x,y)=sen(x)·cos(y)</i><br>"+
 		"<br>La anterior figura es una de muchas superficies que podremos observar"+
-		"y construir, a través de los objetivos planteados para la asignatura </p>";
+		"y construir, a través de los objetivos planteados para la asignatura </p><hr>";
 	}
 	else if(l==18){
 		content.innerHTML="<h1>"+tittle+"</h1><hr>"+
 		"<p> <span style='font-size:18px;'>EN CONSTRUCCION</span><br><br>"+
 		"Utilizando las guías elaboradas para cada tópico de la asignatura,"+
 		"le permitirá comprender y trabajar de una forma empírica los conceptos olvidados en clase."+
-		"<br><img src='resources/bk2.png' ><i>f(x,y)=sen(x)·cos(y)</i><br>"+
+		"<br><img src='resources/9/bk2.png' ><i>f(x,y)=sen(x)·cos(y)</i><br>"+
 		"<br>La anterior figura es una de muchas superficies que podremos observar"+
-		"y construir, a través de los objetivos planteados para la asignatura </p>";
+		"y construir, a través de los objetivos planteados para la asignatura </p><hr>";
 	}
 	else if(l==11||l==10||l==0){
 		content.innerHTML="<h1>Matemáticas III</h1><hr>"+
@@ -206,10 +206,10 @@ function show(who)
 		"Utilizando las guías elaboradas para cada tópico"+
 		" de la asignatura, le permitirá comprender y trabajar"+
 		" de una forma empírica los conceptos olvidados en clase."+
-		"<br><img src='resources/bk.jpg' ><i>f(x,y)=sen(x)·cos(y)</i>"+
+		"<br><img src='resources/0/bk.png' ><i>f(x,y)=sen(x)·cos(y)</i>"+
 		"<br><br>La anterior figura es una de muchas superficies"+
 		" que podremos observar y construir, a través de los objetivos"+
-		" planteados para la asignatura </p>";
+		" planteados para la asignatura </p><hr>";
 	}
 	
 	
