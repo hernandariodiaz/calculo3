@@ -3,7 +3,7 @@
 body{
 	margin:0px;
 	padding:0px;
-	background:gray;
+	background:#224349;
 }
 .container{
 	padding:5px;
@@ -28,12 +28,16 @@ figure img{
 menu{
 	margin:0px;
 	padding:0.3%;
-	display:inline-block;
 	width:auto;
 	background-color:#525050;
 }
+.just{
+	width:100%;
+	margin: 0px auto;
+}
 .menu div{
-	background-color:#EE4470;
+	background-color:#690426;
+	/*background-color:#EE4470;*/
 	border:#0E0E0E 2px solid;
 	float:left;
 	width:32.9%;
@@ -41,6 +45,7 @@ menu{
 	text-align:center;
 	padding-top:3px;
 	border-radius:10%;
+	cursor: pointer;
 }
 .menu div:hover{
 	background-color:black;
@@ -73,7 +78,8 @@ menu{
 .body p{
 	margin:5px;
 	padding:10%;
-	border:#EE4470 3px solid;
+	/*border:#EE4470 3px solid;*/
+	border:#690426 3px solid;
 	border-radius:2%;
 	background-color:#C0C1C1;
 	font-size:12px;
@@ -106,11 +112,14 @@ menu{
 }
 .references ul{
 	list-style: none;
-	background:#7a0427a9 ;
+	background:#690426 ;
 	border: #0E0E0E 2px solid;
 	border-radius:4%;
 	margin:6px;
-	padding-right:10%;
+	padding:inherit;
+}
+.references li{
+	margin: 10px 0px;
 }
 .references h2{
 	color:#ffffff;
@@ -123,7 +132,7 @@ menu{
 }
 video{
 	width:100%;
-	border: #EE4470 1px solid;
+	border: #000 2px solid;
 	border-radius: 5%;
 	margin: 5px 0px;
 }
@@ -134,9 +143,9 @@ video{
 	color:#ffffff;
 	padding:4%;
 	font-size:13px;
-	border:#EE4470 2px solid;
-	border-radius:8%;
-	background-image:url(ft.jpg);
+	background: #07111db6;
+	border-top: #690426 2px solid;
+	width: auto;
 }
 .footer img{
 	padding:0%;

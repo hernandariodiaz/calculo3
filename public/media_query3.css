@@ -1,0 +1,42 @@
+
+.menu div{
+    font-size: 10px;
+    width:32.2%;
+}
+.body h1{
+    font-size: 20px;
+}
+.references{
+	width:30%;
+	float:left;
+	border-bottom:#ffffff 1px solid;
+	text-align: center;
+	font-size:25px;
+}
+.references ul{
+	list-style: none;
+	background:#690426 ;
+	border: #0E0E0E 2px solid;
+	border-radius:3%;
+	margin:2px;
+    font-size: 10px;
+}
+.references h2{
+    font-size: 15px;
+}
+.references h4{
+    font-size: 10px;
+}
+.references li{
+	margin: 10px 0px;
+}
+.references img{
+	width:90%;
+	height: 20px;
+}
+video{
+	width:100%;
+	border: #000 2px solid;
+	border-radius: 5%;
+	margin: 5px 0px;
+}
