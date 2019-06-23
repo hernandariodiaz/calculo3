@@ -12,6 +12,10 @@ body{
 	/*
 	background:#525050;*/
 }
+header{
+	width: 100%;
+	height: 200px;
+}
 figure{
 	margin:0px;
 	padding:0px;
@@ -21,6 +25,7 @@ figure{
 }
 figure img{
 	width:100%;
+	height: 200px;
 }
 .home{
 	position:absolute;
@@ -65,8 +70,8 @@ menu{
 }
 /*    ESTILO PARA EL CUERPO DEL DOCUMENTO */
 .body{
-	margin:2px;
-	width:75%;
+	margin:32px;
+	width:62%;
 	float:left;
 }
 .body h1{
@@ -147,18 +152,24 @@ video{
 .footer{
 	clear:both;
 	color:#ffffff;
-	padding:4%;
 	font-size:13px;
 	border-top: #690426 2px solid;
 	width: auto;
+	height: 55px;
 	background:#07111db6;
 }
 .footer img{
-	padding:0%;
-	margin-top:-8%;
-	width:7%;
-	height:7%;
-	float:right;
-	margin-left:90%;
-	border:none;
+	display: inline-block;
+	width:30px;
+	height:40px;
+	margin-left: 85%;
+	position: relative;
+	top: -22%;
+}
+.footer cite{
+	display: inline-block;
+	width: fit-content;
+	position: relative;
+	top: 33%;
+	left: 5%;
 }

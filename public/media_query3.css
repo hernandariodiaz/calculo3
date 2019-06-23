@@ -6,8 +6,12 @@
 .body h1{
     font-size: 20px;
 }
+.body .little{
+	width: 44%;
+
+}
 .references{
-	width:30%;
+	width:28%;
 	float:left;
 	border-bottom:#ffffff 1px solid;
 	text-align: center;

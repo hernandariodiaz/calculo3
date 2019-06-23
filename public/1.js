@@ -1,5 +1,4 @@
-function start()
-{
+
 	document.getElementById('superficies').addEventListener('click',show)
 	document.getElementById('curvaturas').addEventListener('click',show)
 	document.getElementById('parciales').addEventListener('click',show)
@@ -10,8 +9,22 @@ function start()
 	document.getElementById('masas').addEventListener('click',show)
 	document.getElementById('campos').addEventListener('click',show)
 	document.getElementById('home').addEventListener('click',show)
-	
-}
+
+
+	var query=window.matchMedia('(min-width:950px)');
+	query.addListener(mediaq);
+	function mediaq() {
+		if (query.matches) {
+			var img=document.getElementById('header');
+			img.innerHTML="<img src='resources/0/bkd.png' >";
+		}
+		else{
+			var img=document.getElementById('header');
+			img.innerHTML="<img src='resources/0/bk3.png' >";
+		}
+	}
+	mediaq();
+
 function show(who)
 {
  	/*list=[33,31,29,44,39,40,49,27,18]*/
@@ -215,4 +228,3 @@ function show(who)
 	
 	
 }
-window.addEventListener('load',start);
