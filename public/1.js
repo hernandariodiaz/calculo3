@@ -34,7 +34,7 @@ function show(who)
  	references=document.getElementById('references')
 	if(l==33){
 		content.innerHTML="<h1>"+tittle+"</h1><hr>"+
-		"<p><span style='font-size:18px;'>Superficies Cuádricas:</span><br><br>"+
+		"<p><span class='titulop'>Superficies Cuádricas:</span><br><br>"+
 		"Una superficie cuádrica <b>es la gráfica de una ecuación</b> de segundo"+
 		" grado en tres variables: X,Y y Z; La ecuación más general es: <br><br>"+
 		"<img class='formula' src='resources/1/ecug.png' ><br><br>"+
@@ -43,7 +43,7 @@ function show(who)
 		"<img class='formula' src='resources/1/ecus.png' ><br><br></p>"+
 		
 		
-		"<p><span style='font-size:18px;'>Cilindros:</span><br><br>"+
+		"<p><span class='titulop'>Cilindros:</span><br><br>"+
 		"Un cilindro es una superficie que consiste de"+
 		" <span style='color:#CA2A51;'><i>todas las lineas rectas (llamadas generatrices)</i></span> que son"+
 		" <b>paralelas </b>a <span style='color:#FF9A00;'><i>una recta dada</i></span> y pasan por <span style='color:#5930AD; '><i>"+
@@ -52,7 +52,7 @@ function show(who)
 		"<img class='little' src='resources/1/circulo.png'/><br><br></p>"+
 		
 		
-		"<p><span style='font-size:18px;'>Trazas:</span><br><br>"+
+		"<p><span class='titulop'>Trazas:</span><br><br>"+
 		"Las trazas en los planos verticales X=K son las parábolas que abren hacia arriba"+
 		",  las trazas en Y=K son las parábolas que abren hacia abajo y las trazas "+
 		"horizontales son (y^2-X^2=K) una familia de hipérbolas:<br><br>"+
@@ -65,7 +65,7 @@ function show(who)
 		"<img src='resources/1/silla.png'/></p>"+
 		
 
-		"<p><span style='font-size:18px;'>Principales superficies cuádricas</span><br><br>"+
+		"<p><span class='titulop'>Principales superficies cuádricas</span><br><br>"+
 		"<img src='resources/1/tabla.png'/>"+
 		"<img class='little' src='resources/1/elipsoide2.png'/>"+
 		"<img class='little' src='resources/1/paraboloideeliptico2.png'/>"+
@@ -88,7 +88,7 @@ function show(who)
 	else if(l==44){
 		
 		content.innerHTML="<h1>"+tittle+"</h1><hr>"+
-		"<p><span style='font-size:18px;'>Funciones Vectoriales:</span><br><br>"+
+		"<p><span class='titulop'>Funciones Vectoriales:</span><br><br>"+
 	 	"En general una función es una regla que asigna a cada elemento del dominio, un"+
 	 	" elemento del rango. Una <b>función con valores vectoriales </b>, es decir :"+
 	 	"<br>Una función vectorial, <b>es simplemente una función cuyo dominio"+
@@ -103,30 +103,30 @@ function show(who)
 	 	" funciones componentes </b>de <b>r</b> y podemos escribir:<br><br>"+
 	 	"<img  src='resources/2/funcioncomponente.png'/></p>"+
 	 	
-	 	"<p><span style='font-size:18px;'>Dominio:</span><br><br>"+
+	 	"<p><span class='titulop'>Dominio:</span><br><br>"+
 	 	"Conciste en la <b>INTRESECCION</b> de todos los dominios precentes <i>t</i>"+
 	 	" en  cada componente <b>f(t),g(t),h(t) </b>de dicho vector <b>r(t)</b><br><br>"+
 	 	"<img src='resources/2/dominio.png'/></p>"+
 	 	
-	 	"<p><span style='font-size:18px;'>Límite:</span><br><br>"+
+	 	"<p><span class='titulop'>Límite:</span><br><br>"+
 	 	"El límite de una función vectorial r se define obteniendo los límites de sus "+
 	 	"funciones componentes.<br><br>"+
 	 	"<img  src='resources/2/limite.png'/><br><br>"+
 	 	"Siempre que existan los límites de las funciones componentes</p>"+
 	 	
-	 	"<p> <span style='font-size:18px;'>Curvas en el Espacio</span><br><br>"+
+	 	"<p> <span class='titulop'>Curvas en el Espacio</span><br><br>"+
 		"Hay una estrecha relación entre funciones vectoriales continuas y curvas "+
 		"en el espacio. Supongamos que f,g y h son funciones continuas de valores reales "+
 		"sobre un intervalo I. Entonces el conjunto C de todos los puntos (x,y,z) en el "+
 		"espacio, donde: X=f(t) Y=g(t) Z=h(t) y t varia en el intervalo I, se llama curva en "+
 		"el espacio.</ p>"+
 		
-		"<p> <span style='font-size:18px;'>Ecuaciones Paramétricas</span><br><br>"+
+		"<p> <span class='titulop'>Ecuaciones Paramétricas</span><br><br>"+
 		"Entoces las ecuaciones en C reciben el nombre de ecuaciones paramétricas "+
 		"de todos los puntos (x,y,z) en el espacio, y t se llama parámetro.<br></p>"+
 		
 		
-		"<p><span style='font-size:18px;'>Gráficas</span><br><br>"+
+		"<p><span class='titulop'>Gráficas</span><br><br>"+
 		"Las curvas en el espacio son inherentemente más difíciles de trazar a mano "+
 		"que las curvas en el plano. Si queremos conseguir una representación exacta "+
 		"necesitamos recurrir a los adelantos técnicos.<br>"+
@@ -148,20 +148,20 @@ function show(who)
 	}
 	else if(l==29){
 		content.innerHTML="<h1>"+tittle+"</h1><hr>"+
-		"<p> <span style='font-size:18px;'>EN CONSTRUCCION</span><br><br>"+
+		"<p> <span class='titulop'>EN CONSTRUCCION</span><br><br>"+
 		"Hay una estrecha relación entre funciones vectoriales continuas y curvas "+
 		"en el espacio. Supongamos que f,g y h son funciones continuas de valores reales "+
 		"sobre un intervalo I. Entonces el conjunto C de todos los puntos (x,y,z) en el "+
 		"espacio, donde: X=f(t) Y=g(t) Z=h(t) y t varia en el intervalo I, se llama curva en "+
 		"el espacio.</ p>"+
 		
-		"<p> <span style='font-size:18px;'>Ecuaciones Paramétricas</span><br><br>"+
+		"<p> <span class='titulop'>Ecuaciones Paramétricas</span><br><br>"+
 		"Entoces las ecuaciones en C reciben el nombre de ecuaciones paramétricas "+
 		"de todos los puntos (x,y,z) en el espacio, y t se llama parámetro.</p><hr>"
 	}
 	else if(l==42){
 		content.innerHTML="<h1>"+tittle+"</h1><hr>"+
-		"<p> <span style='font-size:18px;'>EN CONSTRUCCION</span><br><br>"+
+		"<p> <span class='titulop'>EN CONSTRUCCION</span><br><br>"+
 		"Utilizando las guías elaboradas para cada tópico de la asignatura,"+
 		"le permitirá comprender y trabajar de una forma empírica los conceptos olvidados en clase."+
 		"<br><img src='resources/4/bk2.png' ><i>f(x,y)=sen(x)·cos(y)</i><br>"+
@@ -170,7 +170,7 @@ function show(who)
 	}
 	else if(l==39){
 		content.innerHTML="<h1>"+tittle+"</h1><hr>"+
-		"<p> <span style='font-size:18px;'>EN CONSTRUCCION</span><br><br>"+
+		"<p> <span class='titulop'>EN CONSTRUCCION</span><br><br>"+
 		"Utilizando las guías elaboradas para cada tópico de la asignatura,"+
 		"le permitirá comprender y trabajar de una forma empírica los conceptos olvidados en clase."+
 		"<br><img src='resources/5/integrales/d.png' ><i>f(x,y)=sen(x)·cos(y)</i><br>"+
@@ -179,7 +179,7 @@ function show(who)
 	}
 	else if(l==40){
 		content.innerHTML="<h1>"+tittle+"</h1><hr>"+
-		"<p> <span style='font-size:18px;'>EN CONSTRUCCION</span><br><br>"+
+		"<p> <span class='titulop'>EN CONSTRUCCION</span><br><br>"+
 		"Utilizando las guías elaboradas para cada tópico de la asignatura,"+
 		"le permitirá comprender y trabajar de una forma empírica los conceptos olvidados en clase."+
 		"<br><img src='resources/6/integrales/t.png' ><i>f(x,y)=sen(x)·cos(y)</i><br>"+
@@ -188,7 +188,7 @@ function show(who)
 	}
 	else if(l==49){
 		content.innerHTML="<h1>"+tittle+"</h1><hr>"+
-		"<p> <span style='font-size:18px;'>EN CONSTRUCCION</span><br><br>"+
+		"<p> <span class='titulop'>EN CONSTRUCCION</span><br><br>"+
 		"Utilizando las guías elaboradas para cada tópico de la asignatura,"+
 		"le permitirá comprender y trabajar de una forma empírica los conceptos olvidados en clase."+
 		"<br><img src='resources/7/bk2.png' ><i>f(x,y)=sen(x)·cos(y)</i><br>"+
@@ -197,7 +197,7 @@ function show(who)
 	}
 	else if(l==27){
 		content.innerHTML="<h1>"+tittle+"</h1><hr>"+
-		"<p> <span style='font-size:18px;'>EN CONSTRUCCION</span><br><br>"+
+		"<p> <span class='titulop'>EN CONSTRUCCION</span><br><br>"+
 		"Utilizando las guías elaboradas para cada tópico de la asignatura,"+
 		"le permitirá comprender y trabajar de una forma empírica los conceptos olvidados en clase."+
 		"<br><img src='resources/8/bk2.png' ><i>f(x,y)=sen(x)·cos(y)</i><br>"+
@@ -206,7 +206,7 @@ function show(who)
 	}
 	else if(l==18){
 		content.innerHTML="<h1>"+tittle+"</h1><hr>"+
-		"<p> <span style='font-size:18px;'>EN CONSTRUCCION</span><br><br>"+
+		"<p> <span class='titulop'>EN CONSTRUCCION</span><br><br>"+
 		"Utilizando las guías elaboradas para cada tópico de la asignatura,"+
 		"le permitirá comprender y trabajar de una forma empírica los conceptos olvidados en clase."+
 		"<br><img src='resources/9/bk2.png' ><i>f(x,y)=sen(x)·cos(y)</i><br>"+
@@ -215,11 +215,11 @@ function show(who)
 	}
 	else if(l==11||l==10||l==0){
 		content.innerHTML="<h1>Matemáticas III</h1><hr>"+
-		"<p><span style='font-size:18px;'>Bienvenidos</span><br><br>"+
+		"<p><span class='titulop'>Bienvenidos</span><br><br>"+
 		"Utilizando las guías elaboradas para cada tópico"+
 		" de la asignatura, le permitirá comprender y trabajar"+
 		" de una forma empírica los conceptos olvidados en clase."+
-		"<br><img src='resources/0/bk.png' ><i>f(x,y)=sen(x)·cos(y)</i>"+
+		"<br><br><img src='resources/0/bk.png' ><i>f(x,y)=sen(x)·cos(y)</i>"+
 		"<br><br>La anterior figura es una de muchas superficies"+
 		" que podremos observar y construir, a través de los objetivos"+
 		" planteados para la asignatura </p><hr>";

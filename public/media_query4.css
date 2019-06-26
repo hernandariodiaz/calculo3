@@ -16,10 +16,14 @@ figure img{
 	width:100%;
 	height:120px;
 }
+menu{
+	height: 72px;
+}
 .menu div{
 	margin:0px;
 	font-size:8px;
-	width:31.7%;
+	width:32%;
+	height: 20px;
 	border:#0E0E0E 2px solid;
 }
 .body p{
@@ -68,7 +72,6 @@ video{
 	border-top: #690426 2px solid;
 	width: auto;
 	height: 55px;
-	background:#07111db6;
 }
 .footer img{
 	display: inline-block;

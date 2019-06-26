@@ -1,7 +1,15 @@
-
+menu{
+	height: 90px;
+	margin-bottom:10px;
+}
 .menu div{
     font-size: 10px;
     width:32.2%;
+    height: 26px;
+}
+
+.titulop{
+	font-size: 15px;
 }
 .body h1{
     font-size: 20px;
@@ -39,7 +47,7 @@
 	height: 20px;
 }
 video{
-	width:100%;
+	width:90%;
 	border: #000 2px solid;
 	border-radius: 5%;
 	margin: 5px 0px;

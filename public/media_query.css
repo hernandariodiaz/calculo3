@@ -29,14 +29,13 @@ menu{
 	margin:0 auto;
 	padding:inherit;
 	width:100%;
-	background-color:#525050;
-	
+	margin-bottom:20px;	
 }
 .menu div{
 	border:#0E0E0E 2px solid;
 	float:left;
 	width:32.8%;
-	height:25%;
+	height:34px;
 	text-align:center;
 	border-radius:10%;
 }
@@ -45,7 +44,6 @@ menu{
 	border:#C0C1C1 2px solid;
 	color:#ffffff;
 	float:left;
-    height:20%;
 	border-radius:10%;
 	transform:scale(1.01);
 	transition:1.3s;
@@ -57,13 +55,15 @@ menu{
 
 	float:left;
 }
+.titulop{
+	font-size: 30px;
+}
 .body h1{
 	display:inline-block;
 	margin:0px;
 	padding:0px;
 	color:#ffffff;
 	text-align:center;
-	font-size:50px;
 	width:100%;
 	margin:0px auto;
 }
