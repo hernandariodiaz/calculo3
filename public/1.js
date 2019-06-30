@@ -173,7 +173,7 @@ function show(who)
 		"<p> <span class='titulop'>EN CONSTRUCCION</span><br><br>"+
 		"Utilizando las guías elaboradas para cada tópico de la asignatura,"+
 		"le permitirá comprender y trabajar de una forma empírica los conceptos olvidados en clase."+
-		"<br><img src='resources/5/integrales/d.png' ><i>f(x,y)=sen(x)·cos(y)</i><br>"+
+		"<br><img src='resources/5d.png' ><i>f(x,y)=sen(x)·cos(y)</i><br>"+
 		"<br>La anterior figura es una de muchas superficies que podremos observar"+
 		"y construir, a través de los objetivos planteados para la asignatura </p><hr>";
 	}
@@ -182,7 +182,7 @@ function show(who)
 		"<p> <span class='titulop'>EN CONSTRUCCION</span><br><br>"+
 		"Utilizando las guías elaboradas para cada tópico de la asignatura,"+
 		"le permitirá comprender y trabajar de una forma empírica los conceptos olvidados en clase."+
-		"<br><img src='resources/6/integrales/t.png' ><i>f(x,y)=sen(x)·cos(y)</i><br>"+
+		"<br><img src='resources/6t.png' ><i>f(x,y)=sen(x)·cos(y)</i><br>"+
 		"<br>La anterior figura es una de muchas superficies que podremos observar"+
 		"y construir, a través de los objetivos planteados para la asignatura </p><hr>";
 	}

@@ -79,17 +79,14 @@ menu{
 	padding:2px;
 	border:#6C6E6E 2px solid;
 	border-radius:10%;
-	width:80%;
-	height:auto;
+	width:60%;
 	margin:auto 3%;
-	margin-left:8%;
+	margin-left:19%;
 }
 .body .little{
 	padding:2px;
 	border:#6C6E6E 2px solid;
 	border-radius:10%;
-	width:45%;
-	height:25%;
 	margin:1%;
 	text-align:center;
 }
